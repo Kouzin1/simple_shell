@@ -1,5 +1,5 @@
-##Configuration
+#Configuration
 Open the file config and update the variable SHELL with your shell
 
-##Run
+#Run
 Usage ./check_simple_shell.bash
