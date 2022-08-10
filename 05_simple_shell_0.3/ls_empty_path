@@ -27,8 +27,11 @@ if [ $nmatch -eq 0 ]; then
     if [ `$CAT $ERROROUTPUTFILE | wc -c` -ge 5 ]; then
 	print_ok
     else
-	peint_ok
+	print_ok
     fi
+else
+    print_ko
+fi
 
 # clean up
 stop_shell
