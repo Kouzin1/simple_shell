@@ -26,7 +26,7 @@ $SLEEP $SLEEPSECONDS
 cat $ERROROUTPUTFILE
 
 # check the result
-nmatch=`"$CAT $OUTPUTFILE | $GREP -c "$tmp_file"`
+nmatch=`$CAT $OUTPUTFILE | $GREP -c "$tmp_file"`
 if [ $nmatch -eq 1 ]; then
     print_ok
 else

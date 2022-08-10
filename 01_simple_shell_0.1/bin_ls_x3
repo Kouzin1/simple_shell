@@ -28,5 +28,5 @@ else
 fi
 
 # clean up
-stop_shel
+stop_shell
 rm -f $tmp_file
